@@ -1,5 +1,7 @@
 inventory = {'rat':0 , 'ipad':0 , 'hope':0 , 'grok':0 , }
 j = input("'y' or 'n'")
+
+
 while True:
     if j == 'y':
         inventory['rat'] += 1
