@@ -5,6 +5,7 @@ fingers = 3
 height = input('what is your character height with decimals?')
 lives = input ('is this character alive?')
 
+
 if lives == 'yes' :
     lives = True
 else: lives = False
@@ -18,3 +19,5 @@ else: print ('uhh it doesnt look like your character is alive!')
 #introduce character 
 if lives == True :
     print ( 'welcome, ' + name + '!' )
+
+
