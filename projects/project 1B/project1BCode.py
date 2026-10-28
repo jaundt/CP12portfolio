@@ -10,11 +10,13 @@ lives = input ('is this character alive?')
 def storyProgression():
     
     leave = input ('would you like to end the game?')
-    if leave == ('yes', 'y', 'Y', 'YES')
-    exit
-#_____________________________________________________________________________
+    if leave == ('yes', 'y', 'Y', 'YES'):
+        exit
+    elif leave != ('yes', 'y', 'Y', 'YES'):
+        print('staying in program')
+    #________________________________________________________________________
 
-if lives == 'yes' :
+if lives == ('yes', 'y', 'Y', 'YES') :
     lives = True
 else: lives = False
 
@@ -28,4 +30,4 @@ else: print ('uhh it doesnt look like your character is alive!')
 if lives == True :
     print ( 'welcome, ' + name + '!' )
 
-
+storyProgression()
